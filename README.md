@@ -8,11 +8,13 @@ A fork of the [Rails 5 ActionCable](https://github.com/rails/rails/tree/master/a
 
 As of 5.0.0, the official actioncable npm package is broken outside of browser usage, and the [core team](https://github.com/rails/rails/issues/25649) is unwilling to release a fixed version bump indefinitely (until Rails 5.0.1 is released). This package provides support for webpack/node builds in the interim, and will ensure modules are properly supported in the future.
 
-Versioning of this package will match the versioning of the related Rails gem (starting with 5.0.0).
-
 ## Patches
 
 To ready the code for modular usage, Sprockets requires have been replaced with module requires and module.exports added to each source file. Additionally, I have made a few light patches to work better with modules; each is labeled with a `# PATCH` comment to make it clear where the code diverts from the official Rails source.
+
+## Versioning
+
+Versioning of this package will match the versioning of the related Rails gem (starting with 5.0.0). Any minor version bumps for project-specific bugs will be hyphenated on the third semver point, e.g. `5.0.0-1`.
 
 ## Installation
 
