@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/actioncable-modules.svg)](https://badge.fury.io/js/actioncable-modules)
+
 # actioncable-modules
 
 A fork of the [Rails 5 ActionCable](https://github.com/rails/rails/tree/master/actioncable) client code, lightly patched and maintained for proper module support.
