@@ -6,7 +6,7 @@ A fork of the [Rails 5 ActionCable](https://github.com/rails/rails/tree/master/a
 
 ## Why?
 
-As of 5.0.0, the official actioncable npm package is broken outside of browser usage, and the [core team](https://github.com/rails/rails/issues/25649) is unwilling to release a fixed version bump indefinitely (until Rails 5.0.1 is released). This package provides support for webpack/node builds in the interim, and will ensure modules are properly supported in the future.
+As of 5.0.0, the official actioncable npm package was broken outside of browser usage, and the [core team](https://github.com/rails/rails/issues/25649) was unwilling to release a fixed version bump for more than five months (until Rails 5.0.1 was released). This package provided support for webpack/node builds during that timespan, and will ensure modules continue to be properly supported in the future.
 
 ## Patches
 
