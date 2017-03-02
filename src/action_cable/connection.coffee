@@ -24,7 +24,7 @@ class Connection
   open: =>
     if @isActive()
       log("Attempted to open WebSocket, but existing socket is #{@getState()}")
-      false
+      throw new Error("Existing connection must be closed before opening")
     else
       log("Opening WebSocket, current state is #{@getState()}, subprotocols: #{protocols}")
       @uninstallEventHandlers() if @webSocket?
