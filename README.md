@@ -16,6 +16,8 @@ To ready the code for modular usage, Sprockets requires have been replaced with 
 
 Versioning of this package will match the versioning of the related Rails gem (starting with 5.0.0). Any minor version bumps for project-specific bugs will be hyphenated on the third semver point, e.g. `5.0.0-1`.
 
+New versions will be published to npm for each new stable version of Rails. Beta and rc versions (tagged `beta` and `rc` respectively) will be published if the corresponding Rails beta/rc contains any changes to the ActionCable frontend code.
+
 ## Installation
 
 ```
