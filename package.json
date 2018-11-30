@@ -1,6 +1,6 @@
 {
   "name": "actioncable-modules",
-  "version": "5.1.6",
+  "version": "5.1.6-1",
   "description": "Fork of ActionCable client patched for proper module support",
   "main": "dist/action_cable.js",
   "scripts": {
