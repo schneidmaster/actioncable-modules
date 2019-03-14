@@ -1,5 +1,9 @@
 [![npm version](https://badge.fury.io/js/actioncable-modules.svg)](https://badge.fury.io/js/actioncable-modules)
 
+# Deprecated
+
+New versions of this package will no longer be published as of Rails 6. I recommend switching to the official package, [@rails/actioncable](https://www.npmjs.com/package/@rails/actioncable).
+
 # actioncable-modules
 
 A fork of the [Rails 5 ActionCable](https://github.com/rails/rails/tree/master/actioncable) client code, lightly patched and maintained for proper module support.
